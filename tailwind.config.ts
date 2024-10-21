@@ -1,5 +1,6 @@
 import type { Config } from "tailwindcss";
 
+
 const config: Config = {
   content: [
     "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
@@ -9,8 +10,16 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        "soller-font": "#0F172A",
+        "soller-tel": "#0369A1",
+        "soller-bg": "#FFFFFF",
+        "soller-feedback" : "#581C87",
+        "soller-yellow": "#FCD34D",
+        "soller-gray" : "#475569",
+        
+      },
+      fontFamily: {
+        roboto: ['var(--font-roboto)'],
       },
     },
   },
