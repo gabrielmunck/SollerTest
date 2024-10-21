@@ -13,6 +13,7 @@ const config: Config = {
         "soller-font": "#0F172A",
         "soller-tel": "#0369A1",
         "soller-bg": "#FFFFFF",
+        "soller-blueBubble": "#BAE6FD",
         "soller-feedback" : "#581C87",
         "soller-yellow": "#FCD34D",
         "soller-gray" : "#475569",
