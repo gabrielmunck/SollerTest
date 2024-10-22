@@ -28,12 +28,12 @@ const MainSection: React.FC = () => {
                     <div className="flex justify-center lg:justify-start w-full">
                         <Button />
                     </div>
-                    <p className="mt-[128px] text-[18px] leading-[28.8px] font-[400] text-soller-font px-4 mb-4">
+                    <p className="mt-[128px] text-[18px] leading-[28.8px] font-[400] text-soller-font px-4 lg:px-0 mb-4">
                         “Viverra viverra nibh enim et aliquam, enim. Tempor, sit
                         mus viverra orci dui consequat turpis scelerisque
                         faucibus.”
                     </p>
-                    <div className="flex px-4">
+                    <div className="flex px-4 lg:px-0">
                         <Image
                             src={user1}
                             alt="Person Feedback"
