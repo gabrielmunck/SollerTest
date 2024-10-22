@@ -24,10 +24,10 @@ const DesktopSection = () => {
             <div className="absolute top-[240px] left-[-200px] z-0">
                 <Image src={yellowBubble} alt="Yellow bubble" className="max-w-[250px] lg:max-w-full lg:w-full "/>
             </div>
-            <div className="absolute top-0 -right-[250px] lg:right-0 lg:top-[400px] bg-[url('../assets/purpleBubble.svg')] bg-no-repeat bg-right-bottom bg-contain w-[300px] lg:w-full h-[600px] z-0 overflow-hidden">
+            <div className="hidden md:flex md:absolute top-0 -right-[50px] lg:right-0 lg:top-[400px] bg-[url('../assets/purpleBubble.svg')] bg-no-repeat bg-right-bottom bg-contain w-[300px] lg:w-full h-[600px] z-0 overflow-hidden">
             </div>
-            <div className="relative z-10">
-                <Image src={Desktop} alt="Desktop illustration" className="w-full lg:px-[200px] px-4"/>
+            <div className="relative flex justify-center z-10 mb-20 lg:mb-2">
+                <Image src={Desktop} alt="Desktop illustration" className=" w-full max-w-[1900px] lg:px-[200px] px-4"/>
             </div>        
         </section>
     );

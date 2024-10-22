@@ -1,6 +1,8 @@
 import Header from "../components/Header";
 import MainSection from "../components/MainSection";
 import DesktopSection from "../components/DesktopSection";
+import Services from "@/components/Services";
+import Features from "@/components/Features";
 
 export default function Home() {
   return (
@@ -8,6 +10,8 @@ export default function Home() {
       <Header />
       <MainSection />
       <DesktopSection />
+      <Services />
+      <Features />
     </div>
   );
 }
