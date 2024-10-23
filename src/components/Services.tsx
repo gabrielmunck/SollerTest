@@ -29,7 +29,7 @@ const Services = () => {
     ];
 
     return (
-        <section className="w-full">
+        <section className="w-full mb-10">
             <div className="flex flex-col-reverse  md:flex-row items-center">
                 <div className="block w-[350px] md:w-[600px]">
                     <div className=" h-[600px] md:w-[550px] relative">
@@ -61,7 +61,7 @@ const Services = () => {
                 <div className="w-full flex flex-col">
                     <div className="flex flex-col w-full items-center">
                         <div className="flex flex-col w-full max-w-[1180px]">
-                            <p className="text-center lg:text-left text-[16px] lg:text-[20px] font-[500] leading-[17.6] lg:leading-[22px] text-soller-orange pt-[225px] mb-2">
+                            <p className="text-center lg:text-left text-[16px] lg:text-[20px] font-[500] leading-[17.6px] lg:leading-[22px] text-soller-orange pt-[225px] mb-2">
                                 Services
                             </p>
                             <h2 className="text-center lg:text-left text-[32px] lg:text-[56px] font-[700] leading-[35.2px] lg:leading-[61.6px] text-soller-font mb-6">
@@ -75,10 +75,10 @@ const Services = () => {
                             <div className="w-full grid grid-cols-2 gap-12">
                                 {services.map((service, index) => (
                                     <div key={index} className="p-4 rounded-lg">
-                                        <h3 className="text-[24px] leading-[26.4px] font-[700] mb-4 pt-20">
+                                        <h3 className="text-[24px] text-center lg:text-left leading-[26.4px] font-[700] mb-4 pt-20">
                                             {service.title}
                                         </h3>
-                                        <p className="text-[18px] leading-[28.8px] font-[400] mb-4">
+                                        <p className="text-[18px] text-center lg:text-left leading-[28.8px] font-[400] mb-4">
                                             {service.description}
                                         </p>
                                     </div>

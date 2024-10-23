@@ -4,7 +4,7 @@ import Image from "next/image";
 
 const DesktopSection = () => {
     return (
-        <section className="relative pt-20">
+        <section className="relative pt-36">
             <div className="relative flex flex-col justify-center items-center z-10">
                 <p className="mb-2 text-center text-soller-orange font-[500] text-[16px] lg:text-[20px] leading-[17.6px] lg:leading-[22px]">
                     No more waste
