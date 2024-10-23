@@ -29,7 +29,7 @@ const Features = () => {
     ];
 
     return (
-        <section className="w-full">
+        <section className="w-full mb-[240px]">
             <div className="flex flex-col md:flex-row items-center">
                 <div className="w-full flex flex-col">
                     <div className="flex flex-col w-full items-center">
@@ -75,14 +75,14 @@ const Features = () => {
                                 alt="Mobile illustration"
                                 width={420}
                                 height={900}
-                                className="absolute w-[250px] md:w-[455px] transform translate-x-[25%] md:translate-x-[50px] translate-y-[50px] md:translate-y-[150px] "
+                                className="absolute w-[250px] md:w-[455px] transform translate-x-[25%] md:translate-x-[50px] translate-y-[50px] md:translate-y-[30px] "
                             />
                             <Image
                                 src={MobileBubble}
                                 alt="Card illustration"
                                 width={203}
                                 height={296.8}
-                                className="absolute w-[60px] md:w-[110px] transform translate-x-[265px] translate-y-[373px] md:translate-x-[415px] md:translate-y-[738px]"
+                                className="absolute w-[60px] md:w-[110px] transform translate-x-[265px] translate-y-[373px] md:translate-x-[415px] md:translate-y-[618px]"
                             />
                         </div>
                     </div>
