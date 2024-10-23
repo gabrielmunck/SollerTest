@@ -17,6 +17,7 @@ const config: Config = {
         "soller-feedback" : "#581C87",
         "soller-orange" : "#D97706",
         "soller-yellow": "#FCD34D",
+        "soller-brown" : "#78350F",
         "soller-gray" : "#475569",
         
       },
