@@ -1,19 +1,21 @@
-import MainSection from "../components/MainSection";
-import DesktopSection from "../components/DesktopSection";
+import MainSection from "@/components/MainSection";
+import DesktopSection from "@/components/DesktopSection";
 import Services from "@/components/Services";
 import Features from "@/components/Features";
 import CarouselSection from "@/components/CarouselSection";
 import FinalSection from "@/components/FinalSection";
+import Footer from "@/components/Footer";
 
 export default function Home() {
   return (
-    <div className="flex flex-col min-h-screen bg-soller-bg ">
+    <div className="flex flex-col min-h-screen bg-soller-bg overflow-hidden">
       <MainSection />
       <DesktopSection />
       <Services />
       <Features />
       <CarouselSection/>
       <FinalSection/>
+      <Footer/>
     </div>
   );
 }

@@ -36,12 +36,13 @@
     display: none;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 1200px) {
     .swiper-button-prev {
-        left: 35% !important;
+        left: 30% !important;
     }
 
     .swiper-button-next {
         left: 55% !important;
     }
 }
+
