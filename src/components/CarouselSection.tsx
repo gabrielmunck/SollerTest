@@ -81,7 +81,7 @@ const testimonials: TestimonialCard[] = [
 
 const CarouselSection = () => {
     return (
-        <section className="flex flex-col bg-soller-feedback w-full h-auto pt-12 lg:pt-20">
+        <section className="flex flex-col bg-soller-feedback w-full h-auto pt-12 lg:pt-20 pb-16 z-10">
             <div className="flex flex-col justify-between md:flex-row lg:px-20">
                 <div className="flex flex-col w-full max-w-[814px]">
                     <p className="text-center lg:text-left text-[16px] lg:text-[20px] font-[500] leading-[17.6px] lg:leading-[22px] text-soller-yellow mb-2">
@@ -127,7 +127,7 @@ const CarouselSection = () => {
                 >
                     {testimonials.map((testimonial) => (
                         <SwiperSlide key={testimonial.id}>
-                            <div className="flex flex-col justify-between bg-soller-bg w-[344px] h-[359px] lg:h-[442px] rounded-lg px-4 shadow-lg border border-soller-grayborder transition-transform duration-300 hover:scale-105">
+                            <div className="flex flex-col select-none justify-between bg-soller-bg w-[344px] h-[359px] lg:h-[442px] rounded-lg px-4 shadow-lg border border-soller-grayborder transition-transform duration-300 hover:scale-105">
                                 <p className="pt-20 mb-4 text-soller-font text-[16px] leading-[22.4px] lg:text-[18px] lg:leading-[28.8px] font-[400]">
                                     {testimonial.comment}
                                 </p>
@@ -151,8 +151,8 @@ const CarouselSection = () => {
                             </div>
                         </SwiperSlide>
                     ))}
-                    <div className="flex mt-28 ">
-                        <button id="seta" className="swiper-button-prev flex items-center justify-center z-10 bg-soller-feedback border-[2px] border-soller-yellow rounded-full shadow-lg">
+                    <div className="flex mt-28">
+                        <button id="seta" className="swiper-button-prev flex items-center justify-center bg-soller-feedback border-[2px] border-soller-yellow rounded-full shadow-lg">
                             <svg
                                 width="24"
                                 height="24"
@@ -167,7 +167,7 @@ const CarouselSection = () => {
                                 />
                             </svg>
                         </button>
-                        <button id="seta" className="swiper-button-next flex items-center justify-center z-10 bg-soller-feedback border-[2px] border-soller-yellow rounded-full shadow-lg">
+                        <button id="seta" className="swiper-button-next flex items-center justify-center bg-soller-feedback border-[2px] border-soller-yellow rounded-full shadow-lg">
                             <svg
                                 width="24"
                                 height="24"

@@ -3,6 +3,7 @@ import DesktopSection from "../components/DesktopSection";
 import Services from "@/components/Services";
 import Features from "@/components/Features";
 import CarouselSection from "@/components/CarouselSection";
+import FinalSection from "@/components/FinalSection";
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
       <Services />
       <Features />
       <CarouselSection/>
+      <FinalSection/>
     </div>
   );
 }
