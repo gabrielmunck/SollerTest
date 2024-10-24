@@ -1,6 +1,11 @@
 "use client";
 import { motion } from "framer-motion";
 
+
+
+
+// Componente para animar texto
+
 export const AnimatedText = ({
     text,
     className,

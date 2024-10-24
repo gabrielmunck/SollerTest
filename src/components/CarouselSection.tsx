@@ -20,7 +20,7 @@ interface TestimonialCard {
     image: StaticImageData;
 }
 
-const testimonials: TestimonialCard[] = [
+const testimonials: TestimonialCard[] = [ // Lista de Usuarios e seus comentarios
     {
         id: 1,
         name: "Jane Cooper",
@@ -78,6 +78,8 @@ const testimonials: TestimonialCard[] = [
         image: User4,
     },
 ];
+
+// Aqui sera usado o componente Swiper para a criação do carrosel
 
 const CarouselSection = () => {
     return (

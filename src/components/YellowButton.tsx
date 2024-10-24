@@ -4,6 +4,7 @@ interface ButtonProps {
     onClick?: () => void;
 }
 
+//Variante botao amarelo
 const Button: React.FC<ButtonProps> = ({ onClick }) => {
     return (
         <button

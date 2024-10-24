@@ -5,7 +5,8 @@ import MobileBubble from "../assets/MobileBubble.svg";
 import yellowRectangle from "../assets/yellowRectangle.svg";
 
 const Features = () => {
-    const services = [
+    //Lista das features principais
+    const features = [
         {
             title: "Erat sit",
             description:
@@ -46,7 +47,7 @@ const Features = () => {
                                 id sit ornare maecenas lectus sed.
                             </span>
                             <div className="w-full grid grid-cols-2 gap-12">
-                                {services.map((service, index) => (
+                                {features.map((service, index) => (
                                     <div key={index} className="p-4 rounded-lg">
                                         <h3 className="text-[24px] text-center lg:text-left leading-[26.4px] font-[700] mb-4 pt-20">
                                             {service.title}

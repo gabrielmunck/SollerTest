@@ -6,6 +6,8 @@ import workGuy from "../assets/PexelsPhotobyGustavoFring.png";
 import Button from "./Button";
 import { AnimatedText } from './AnimatedText';
 
+// Aqui foi usado o componente AnimatedText para animação suave nos textos principais
+
 const MainSection: React.FC = () => {
     return (
         <main className="w-full relative">

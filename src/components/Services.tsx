@@ -5,6 +5,7 @@ import Card from "../assets/Card.svg";
 import purpleRectangle from "../assets/purpleRectangle.svg";
 
 const Services = () => {
+    // Lista dos principais serviços oferecidos pela empresa
     const services = [
         {
             title: "Et mauris",
