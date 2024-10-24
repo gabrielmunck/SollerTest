@@ -29,9 +29,9 @@ const Services = () => {
     ];
 
     return (
-        <section className="w-full mb-10">
-            <div className="flex flex-col-reverse  md:flex-row items-center">
-                <div className="block w-[350px] md:w-[600px]">
+        <main className="w-full mb-10">
+            <article className="flex flex-col-reverse  md:flex-row items-center">
+                <figure className="block w-[350px] md:w-[600px]">
                     <div className=" h-[600px] md:w-[450px] relative">
                         <Image
                             src={purpleRectangle}
@@ -57,8 +57,8 @@ const Services = () => {
                             />
                         </div>
                     </div>
-                </div>
-                <div className="w-full flex flex-col">
+                </figure>
+                <section className="w-full flex flex-col">
                     <div className="flex flex-col w-full items-center">
                         <div className="flex flex-col w-full max-w-[1180px]">
                             <p className="text-center lg:text-left text-[16px] lg:text-[20px] font-[500] leading-[17.6px] lg:leading-[22px] text-soller-orange lg:pt-[225px] mb-2">
@@ -86,9 +86,9 @@ const Services = () => {
                             </div>
                         </div>
                     </div>
-                </div>
-            </div>
-        </section>
+                </section>
+            </article>
+        </main>
     );
 };
 

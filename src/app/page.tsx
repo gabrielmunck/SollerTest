@@ -23,7 +23,7 @@ export default function Home() {
         initial={{ y: 50, opacity: 0 }}
         whileInView={{ y: 0, opacity: 1 }}
         viewport={{ once: true, amount: 0.3 }}
-        transition={{ duration: 0.7 }}
+        transition={{ duration: 0.5 }}
       >
         <DesktopSection />
       </motion.div>
@@ -32,7 +32,7 @@ export default function Home() {
         initial={{ y: 50, opacity: 0 }}
         whileInView={{ y: 0, opacity: 1 }}
         viewport={{ once: true, amount: 0.3 }}
-        transition={{ duration: 0.7 }}
+        transition={{ duration: 0.5 }}
       >
         <Services />
       </motion.div>
@@ -41,7 +41,7 @@ export default function Home() {
         initial={{ y: 50, opacity: 0 }}
         whileInView={{ y: 0, opacity: 1 }}
         viewport={{ once: true, amount: 0.3 }}
-        transition={{ duration: 0.7 }}
+        transition={{ duration: 0.5 }}
       >
         <Features />
       </motion.div>
@@ -50,7 +50,7 @@ export default function Home() {
         initial={{ y: 50, opacity: 0 }}
         whileInView={{ y: 0, opacity: 1 }}
         viewport={{ once: true, amount: 0.3 }}
-        transition={{ duration: 0.7 }}
+        transition={{ duration: 0.5 }}
       >
         <CarouselSection />
       </motion.div>
@@ -59,7 +59,7 @@ export default function Home() {
         initial={{ y: 50, opacity: 0 }}
         whileInView={{ y: 0, opacity: 1 }}
         viewport={{ once: true, amount: 0.3 }}
-        transition={{ duration: 0.7 }}
+        transition={{ duration: 0.5 }}
       >
         <FinalSection />
       </motion.div>
@@ -68,7 +68,7 @@ export default function Home() {
         initial={{ y: 50, opacity: 0 }}
         whileInView={{ y: 0, opacity: 1 }}
         viewport={{ once: true, amount: 0.3 }}
-        transition={{ duration: 0.7 }}
+        transition={{ duration: 0.5 }}
       >
         <Footer />
       </motion.div>

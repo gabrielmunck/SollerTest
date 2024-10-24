@@ -29,9 +29,9 @@ const Features = () => {
     ];
 
     return (
-        <section className="w-full mb-[100px] lg:mb-[240px]">
-            <div className="flex flex-col md:flex-row items-center">
-                <div className="w-full flex flex-col">
+        <main className="w-full mb-[100px] lg:mb-[240px]">
+            <article className="flex flex-col md:flex-row items-center">
+                <section className="w-full flex flex-col">
                     <div className="flex flex-col w-full items-center">
                         <div className="flex flex-col w-full max-w-[1180px] z-20">
                             <p className="text-center lg:text-left text-[16px] lg:text-[20px] font-[500] leading-[17.6px] lg:leading-[22px] text-soller-orange lg:pt-[225px] mb-2">
@@ -59,8 +59,8 @@ const Features = () => {
                             </div>
                         </div>
                     </div>
-                </div>
-                <div className="block w-[375px] lg:w-[550px] z-10">
+                </section>
+                <figure className="block w-[375px] lg:w-[550px] z-10">
                     <div className=" h-[600px] lg:w-[550px] relative">
                         <Image
                             src={yellowRectangle}
@@ -86,9 +86,9 @@ const Features = () => {
                             />
                         </div>
                     </div>
-                </div>
-            </div>
-        </section>
+                </figure>
+            </article>
+        </main>
     );
 };
 

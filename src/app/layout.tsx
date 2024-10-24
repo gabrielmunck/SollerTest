@@ -10,7 +10,15 @@ const roboto = Roboto({
 
 export const metadata: Metadata = {
   title: "Soller - Get the Sun to Power Your Home",
-  description: "Buzzvel Front End Test",
+  description: "Buzzvel Front End Test - Gabriel Munck",
+  keywords: 'Soller, Energy Saving, Solar Panel, Solar Energy',
+  openGraph: {
+    title: 'Soller - Get the Sun to Power Your Home',
+    description: 'Buzzvel Front End Test - Gabriel Munck',
+    type: 'website',
+    locale: 'pt_BR',
+    images: ['@/assets/opengraphImage.jpg'],
+  },
 };
 
 export default function RootLayout({

@@ -81,8 +81,8 @@ const testimonials: TestimonialCard[] = [
 
 const CarouselSection = () => {
     return (
-        <section className="flex flex-col bg-soller-feedback w-full h-auto pt-12 lg:pt-20 pb-16 z-10">
-            <div className="flex flex-col justify-between md:flex-row lg:px-20">
+        <main className="flex flex-col bg-soller-feedback w-full h-auto pt-12 lg:pt-20 pb-16 z-10">
+            <article className="flex flex-col justify-between md:flex-row lg:px-20">
                 <div className="flex flex-col w-full max-w-[814px]">
                     <p className="text-center lg:text-left text-[16px] lg:text-[20px] font-[500] leading-[17.6px] lg:leading-[22px] text-soller-yellow mb-2">
                         Join other Sun harvesters
@@ -99,8 +99,8 @@ const CarouselSection = () => {
                 <div className="flex w-full pt-10 justify-center lg:justify-end">
                     <YellowButton />
                 </div>
-            </div>
-            <div className=" p-4 lg:pl-20 mt-10">
+            </article>
+            <section className=" p-4 lg:pl-20 mt-10">
                 <Swiper
                     modules={[Navigation]}
                     spaceBetween={10}
@@ -131,7 +131,7 @@ const CarouselSection = () => {
                                 <p className="pt-20 mb-4 text-soller-font text-[16px] leading-[22.4px] lg:text-[18px] lg:leading-[28.8px] font-[400]">
                                     {testimonial.comment}
                                 </p>
-                                <div className="flex pb-10">
+                                <figure className="flex pb-10">
                                     <Image
                                         src={testimonial.image}
                                         alt={testimonial.name}
@@ -147,7 +147,7 @@ const CarouselSection = () => {
                                             {testimonial.energy}
                                         </p>
                                     </div>
-                                </div>
+                                </figure>
                             </div>
                         </SwiperSlide>
                     ))}
@@ -184,8 +184,8 @@ const CarouselSection = () => {
                         </button>
                     </div>
                 </Swiper>
-            </div>
-        </section>
+            </section>
+        </main>
     );
 };
 

@@ -16,22 +16,22 @@ const Footer = () => {
                     Soller
                 </h2>
             </div>
-            <div className="flex flex-row justify-center md:justify-start items-center w-full md:w-1/2 py-3 mb-6 md:mb-0">
-                <span className="text-soller-font text-[16px] font-[400] leading-[22.4px] md:pl-4">
+            <section className="flex flex-row justify-center md:justify-start items-center w-full md:w-1/2 py-3 mb-6 md:mb-0">
+                <p className="text-soller-font text-[16px] font-[400] leading-[22.4px] md:pl-4">
                     @ 2023 Soller, Inc. All rights reserved.
-                </span>
-            </div>
-            <div className="flex flex-row justify-center md:justify-end  items-center w-full gap-6 md:w-1/2">
-                <span className="text-soller-font text-[16px] font-[400] leading-[22.4px] py-3 hover:text-soller-tel">
+                </p>
+            </section>
+            <section className="flex flex-row justify-center md:justify-end  items-center w-full gap-6 md:w-1/2">
+                <p className="text-soller-font text-[16px] font-[400] leading-[22.4px] py-3 hover:text-soller-tel">
                     Terms
-                </span>
-                <span className="text-soller-font text-[16px] font-[400] leading-[22.4px] py-3 hover:text-soller-tel">
+                </p>
+                <p className="text-soller-font text-[16px] font-[400] leading-[22.4px] py-3 hover:text-soller-tel">
                     Privacy
-                </span>
-                <span className="text-soller-font text-[16px] font-[400] leading-[22.4px] py-3 hover:text-soller-tel">
+                </p>
+                <p className="text-soller-font text-[16px] font-[400] leading-[22.4px] py-3 hover:text-soller-tel">
                     Support
-                </span>
-            </div>
+                </p>
+            </section>
         </footer>
     );
 };

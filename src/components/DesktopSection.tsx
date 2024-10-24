@@ -4,8 +4,8 @@ import Image from "next/image";
 
 const DesktopSection = () => {
     return (
-        <section className="relative pt-36">
-            <div className="relative flex flex-col justify-center items-center z-10">
+        <main className="relative pt-36">
+            <article className="relative flex flex-col justify-center items-center z-10">
                 <p className="mb-2 text-center text-soller-orange font-[500] text-[16px] lg:text-[20px] leading-[17.6px] lg:leading-[22px]">
                     No more waste
                 </p>
@@ -20,16 +20,16 @@ const DesktopSection = () => {
                         elementum sollicitudin.
                     </p>
                 </div>
-            </div>
-            <div className="absolute top-[240px] left-[-200px] z-0">
+            </article>
+            <figure className="absolute top-[240px] left-[-200px] z-0">
                 <Image src={yellowBubble} alt="Yellow bubble" className="max-w-[250px] lg:max-w-full lg:w-full "/>
-            </div>
+            </figure>
             <div className="hidden md:flex md:absolute top-0 -right-[50px] lg:right-0 lg:top-[400px] bg-[url('../assets/purpleBubble.svg')] bg-no-repeat bg-right-bottom bg-contain w-[300px] lg:w-full h-[600px] z-0 overflow-hidden">
             </div>
-            <div className="relative flex justify-center z-10 mb-20 lg:mb-2">
+            <figure className="relative flex justify-center z-10 mb-20 lg:mb-2">
                 <Image src={Desktop} alt="Desktop illustration" className=" w-full max-w-[1900px] lg:px-[200px] px-4"/>
-            </div>        
-        </section>
+            </figure>        
+        </main>
     );
 };
 
