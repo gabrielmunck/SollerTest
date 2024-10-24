@@ -5,7 +5,7 @@ import HeadsetIcon from '../assets/headset.svg';
 
 const Header: React.FC = () => {
     return (
-        <header className="bg-transparent top-0 left-0 right-0 z-50 px-4 lg:px-20">
+        <header className="absolute bg-transparent top-0 left-0 right-0 z-20 px-4 lg:px-20">
             <div className="mx-auto h-[112px] flex justify-between items-center">
                 <div className="flex items-center">
                     <h1 className="text-[32px] font-bold text-soller-font mr-[42px]">soller</h1>

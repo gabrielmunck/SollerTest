@@ -19,6 +19,7 @@ const config: Config = {
         "soller-yellow": "#FCD34D",
         "soller-brown" : "#78350F",
         "soller-gray" : "#475569",
+        "soller-grayborder" : "#E2E8F0",
         
       },
       fontFamily: {

@@ -29,18 +29,18 @@ const Features = () => {
     ];
 
     return (
-        <section className="w-full mb-[240px]">
+        <section className="w-full mb-[100px] lg:mb-[240px]">
             <div className="flex flex-col md:flex-row items-center">
                 <div className="w-full flex flex-col">
                     <div className="flex flex-col w-full items-center">
                         <div className="flex flex-col w-full max-w-[1180px] z-20">
-                            <p className="text-center lg:text-left text-[16px] lg:text-[20px] font-[500] leading-[17.6px] lg:leading-[22px] text-soller-orange pt-[225px] mb-2">
+                            <p className="text-center lg:text-left text-[16px] lg:text-[20px] font-[500] leading-[17.6px] lg:leading-[22px] text-soller-orange lg:pt-[225px] mb-2">
                                 System features
                             </p>
                             <h2 className="text-center lg:text-left text-[32px] lg:text-[56px] font-[700] leading-[35.2px] lg:leading-[61.6px] text-soller-font mb-6">
                                 Powerful features
                             </h2>
-                            <span className="text-center lg:text-left text-[16px] lg:text-[20px] font-[400] leading-[36px] lg:leading-[22px] text-soller-font mb-12">
+                            <span className="text-center lg:text-left text-[16px] lg:text-[20px] font-[400] leading-[36px] lg:leading-[22px] text-soller-font mb-12 ">
                                 Pretium lectus ultrices sit tempor, sit
                                 ullamcorper volutpat et et. Auctor turpis semper
                                 id sit ornare maecenas lectus sed.
@@ -60,7 +60,7 @@ const Features = () => {
                         </div>
                     </div>
                 </div>
-                <div className="block w-[390px] lg:w-[550px] z-10">
+                <div className="block w-[375px] lg:w-[550px] z-10">
                     <div className=" h-[600px] lg:w-[550px] relative">
                         <Image
                             src={yellowRectangle}
@@ -75,14 +75,14 @@ const Features = () => {
                                 alt="Mobile illustration"
                                 width={420}
                                 height={900}
-                                className="absolute w-[250px] md:w-[455px] transform translate-x-[25%] md:translate-x-[50px] translate-y-[50px] md:translate-y-[30px] "
+                                className="absolute w-[250px] md:w-[455px] transform translate-x-[25%] md:translate-x-[50px] translate-y-[90px] md:translate-y-[30px] "
                             />
                             <Image
                                 src={MobileBubble}
                                 alt="Card illustration"
                                 width={203}
                                 height={296.8}
-                                className="absolute w-[60px] md:w-[110px] transform translate-x-[265px] translate-y-[373px] md:translate-x-[415px] md:translate-y-[618px]"
+                                className="absolute w-[60px] md:w-[110px] transform translate-x-[265px] translate-y-[413px] lg:translate-x-[415px] lg:translate-y-[618px]"
                             />
                         </div>
                     </div>

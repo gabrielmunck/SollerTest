@@ -32,13 +32,13 @@ const Services = () => {
         <section className="w-full mb-10">
             <div className="flex flex-col-reverse  md:flex-row items-center">
                 <div className="block w-[350px] md:w-[600px]">
-                    <div className=" h-[600px] md:w-[550px] relative">
+                    <div className=" h-[600px] md:w-[450px] relative">
                         <Image
                             src={purpleRectangle}
                             alt="Purple Rectangle"
                             width={1200}
                             height={1100}
-                            className="absolute w-[355px] lg:w-full transform -translate-x-[20px] "
+                            className="absolute w-[355px] lg:w-full transform -translate-x-[40px] "
                         />
                         <div className="relative h-full w-full">
                             <Image
@@ -46,14 +46,14 @@ const Services = () => {
                                 alt="Mobile illustration"
                                 width={420}
                                 height={900}
-                                className="absolute w-[250px] md:w-[405px] transform translate-x-[20%] md:translate-x-[90px] translate-y-[60px] "
+                                className="absolute w-[250px] md:w-[305px] transform translate-x-[20%] md:translate-x-[90px] translate-y-[60px] "
                             />
                             <Image
                                 src={Card}
                                 alt="Card illustration"
                                 width={203}
                                 height={296.8}
-                                className="absolute w-[130px] md:w-[203px]  transform translate-x-[233px] translate-y-[210px] md:translate-x-[390px] md:translate-y-[310px]"
+                                className="absolute w-[130px] md:w-[173px] transform translate-x-[233px] translate-y-[210px] md:translate-x-[310px] md:translate-y-[230px]"
                             />
                         </div>
                     </div>
@@ -61,7 +61,7 @@ const Services = () => {
                 <div className="w-full flex flex-col">
                     <div className="flex flex-col w-full items-center">
                         <div className="flex flex-col w-full max-w-[1180px]">
-                            <p className="text-center lg:text-left text-[16px] lg:text-[20px] font-[500] leading-[17.6px] lg:leading-[22px] text-soller-orange pt-[225px] mb-2">
+                            <p className="text-center lg:text-left text-[16px] lg:text-[20px] font-[500] leading-[17.6px] lg:leading-[22px] text-soller-orange lg:pt-[225px] mb-2">
                                 Services
                             </p>
                             <h2 className="text-center lg:text-left text-[32px] lg:text-[56px] font-[700] leading-[35.2px] lg:leading-[61.6px] text-soller-font mb-6">

@@ -15,11 +15,11 @@ export const metadata: Metadata = {
 
 export default function RootLayout({
   children,
-}: Readonly<{
-  children: React.ReactNode;
-}>) {
+}: {
+  children: React.ReactNode
+}) {
   return (
-    <html lang="en">
+    <html lang="en" data-lt-installed="true">
       <body
         className={`${roboto.variable} font-roboto antialiased`}
       >
