@@ -2,6 +2,9 @@
 
 ## Meu nome é Gabriel Munck, sou desenvolvedor Front End e este é o meu teste para a vaga de Front End na Buzzvel.
 
+## 🌐 Deploy
+Acesse o projeto em produção: [https://soller-test-omega.vercel.app/](https://soller-test-omega.vercel.app/)
+
 ## 🚀 Tecnologias Utilizadas
 
 - [Next.js 14](https://nextjs.org/) - Framework React com SSR
